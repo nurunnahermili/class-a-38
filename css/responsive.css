@@ -1,0 +1,114 @@
+@media all and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .container .logo-area {
+    width: 100%;
+    text-align: center;
+  }
+  .container .menu-area {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .header .menu-area ul {
+    padding-left: 0;
+  }
+  .about-section .container .picture {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .about-section .container .picture img {
+    width: 100%;
+  }
+  .about-section .container .about-content {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -80px;
+  }
+}
+
+@media all and (max-width: 723px) {
+  .about-section .container .picture img {
+    width: 100%;
+  }
+  .container .blog-item h2 {
+    font-size: 18px;
+  }
+  .container .blog-item p {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 652px) {
+  .header .logo-area {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .header .logo-area img {
+    width: 90px;
+  }
+  .header .menu-area {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .header .menu-area ul li:nth-child(1) {
+    border-left: none;
+  }
+  .header .menu-area ul li a {
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 559px) {
+  .footer .footer-left {
+    width: 100%;
+    display: inline-block;
+  }
+  .footer .footer-left p {
+    font-size: 12px;
+  }
+  .footer .footer-right {
+    width: 100%;
+    display: inline-block;
+  }
+  .footer .footer-right ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer .footer-right ul li a {
+    font-size: 12px;
+    padding: 0px 5px;
+  }
+}
+
+@media all and (max-width: 474px) {
+  .blog-section .blog-item {
+    width: 100%;
+    text-align: center;
+  }
+  .blog-section .blog-item .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .blog-section .blog-item .icon i {
+    font-size: 17px;
+  }
+  .blog-section .blog-item h2 {
+    font-size: 18px;
+  }
+  .blog-section .blog-item p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
